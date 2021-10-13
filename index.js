@@ -5,7 +5,7 @@ const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 
-const OUT_DIR = path.resolve(__dirname, "output")
+const OUT_DIR = path.resolve(__dirname, "dist")
 const outputPath = path.join(OUT_DIR, "team.html")
 
 const team = [];
@@ -98,7 +98,7 @@ async function createIntern(){
             name: "school",
             message: "What is your intern's school?"
         }
-    ]);
+    ])
     return new Intern(answers.name, answers.id, answers.email, answers.school);
 }
 

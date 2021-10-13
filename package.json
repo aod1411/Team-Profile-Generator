@@ -1,0 +1,31 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "command line application",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aod1411/Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aod1411/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/aod1411/Team-Profile-Generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^6.3.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
