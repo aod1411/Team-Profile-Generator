@@ -5,4 +5,19 @@ h1{
 .card{
     margin: 1%;
     background-color: #800000;
+    width: 20%;
+}
+
+.headerRow{
+    background:black;
+    color:white;
+}
+
+.card-header{
+    color:white;
+}
+
+.jumbotron{
+    background-color: black;
+    color: white;
 }
